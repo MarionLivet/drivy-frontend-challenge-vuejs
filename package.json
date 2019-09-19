@@ -1,0 +1,23 @@
+{
+  "name": "drivy-frontend-test",
+  "version": "0.0.1",
+  "description": "Drivy frontend challenge",
+  "repository": "https://github.com/drivy/jobs",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "components": "^0.1.0",
+    "express": "^4.17.1",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.12",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
